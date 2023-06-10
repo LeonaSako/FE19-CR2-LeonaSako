@@ -1,0 +1,144 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav {
+        align-items: center;
+        display: flex;
+        background: black;
+        text-align: center;
+    }
+    
+    .color-white {
+        color: white;
+        margin-left: 10px;
+        font-size: larger;
+    }
+    
+    .color-red {
+        color: red;
+        margin-left: -10px;
+        font-size: larger;
+    }
+    
+    .nav-right {
+        justify-content: end;
+    }
+    
+    .nav {
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+    
+    .nav1 {
+        line-height: 55px;
+        font-weight: normal;
+        color: grey;
+        text-decoration: none;
+        padding-right: 10px;
+    }
+    
+    .nav1.nav3 {
+        color: white;
+        margin-left: 10px;
+    }
+    
+    #planner {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    
+    .planner-photo {
+        width: 100%;
+        height: 400px;
+        background: url("../images/planner.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+    }
+    
+    .label {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 2rem;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 26px;
+    }
+    
+    #sorting {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .selecting {
+        margin-top: 10px;
+    }
+    
+    .btn-primary {
+        margin: 10px 3px;
+        max-width: 90px;
+        max-height: 50px;
+    }
+    
+    #Weekly-tasks {
+        padding-bottom: 10px;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .footer {
+        background-color: black;
+        color: white;
+        height: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
+    
+    .top-footer {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .social {
+        margin-left: 10px;
+    }
+    
+    .container {
+        margin-bottom: 50px;
+    }
+    
+    .middle-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    
+    .Sign {
+        padding-top: 10px;
+    }
+    
+    .input {
+        margin: 13px;
+        padding: 3px;
+    }
+    
+    .subscribe {
+        padding: -4px;
+    }
